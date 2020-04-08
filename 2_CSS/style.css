@@ -1,0 +1,43 @@
+p {
+    /* rgb */
+    /* color: rgb(255, 10, 90); */
+
+    /* nombre */
+    color: red;
+    /* hex */
+    /* color: #00FF33; */
+
+    font-family: 'Times New Roman';
+}
+
+h1 {
+    font-family: Arial;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+
+/* Clase */
+.verde {
+    color: green;
+}
+
+.verde:hover {
+    color: red;
+}
+
+.cuadrado {
+    background: indigo;
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+    border: dashed 5px black;
+    margin: 25px;
+}
+
+/* ID */
+#azul {
+    color: blue
+}

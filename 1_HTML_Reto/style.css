@@ -1,0 +1,55 @@
+body {
+    background: lemonchiffon;
+    font-family: 'Baloo 2', cursive;
+}
+
+h1 {
+    font-family: Arial;
+    color: #922929;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+}
+
+#Aloy {
+    color: rgb(221, 103, 48);
+}
+
+#Aloy:hover {
+    color: rgb(79, 79, 180);
+}
+
+#Ellie {
+    color: #d4eb9e;
+}
+
+#Ellie:hover {
+    color: #dd857b;
+}
+
+#Kratos {
+    color: #922929;
+}
+
+#Kratos:hover {
+    color: darkgray;
+}
+
+/* ol {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row; */
+}
+
+.subs {
+    color: plum;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 20px;
+}

@@ -1,0 +1,139 @@
+/* Aplica a TODAS las etiquetas este estilo */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+.encabezado {
+    background-color: tomato;
+}
+
+.titulo {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Header */
+
+/* Main */
+
+.contenedor-principal {
+    background-color: cornflowerblue;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto {
+    border: solid 1px black;
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen {
+    border: solid 1px black;
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .logo {
+    height: 200px;
+    width: 150px; 
+} */
+
+/* Main */
+
+/* Section */
+
+.centro {
+    background-color: peachpuff;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.primero {
+    border: solid 1px black;
+    height: 300px;
+    width: 300px;
+    font-size: small;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.segundo {
+    border: solid 1px black;
+    height: 300px;
+    width: 300px;
+    font-size: small;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tercero {
+    border: solid 1px black;
+    height: 300px;
+    width: 300px;
+    font-size: small;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Section */
+
+/* Footer */
+
+.final {
+    background-color: teal;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blah {
+    font-size: small;
+    text-align: justify;
+    height: 100px;
+    width: 300px;
+    padding-left: 30px;
+}
+
+.draw {
+    height: 100px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.meh {
+    font-size: small;
+    text-align: justify;
+    height: 100px;
+    width: 300px;
+    padding-right: 30px;
+}
+
+/* Footer */

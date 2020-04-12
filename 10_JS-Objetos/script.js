@@ -1,7 +1,7 @@
 // Objetos no tienen orden
 // Llave valores
 
-// JSON - javascript object notation
+// JSON - javascript object notation - objeto
 // se usa mucho con manejo de datos
 
 

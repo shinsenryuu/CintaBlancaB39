@@ -5,15 +5,16 @@ body {
 .navbar {
     position: fixed;
     width: 100%;
+    z-index: 3;
+    top: 0;
 }
 
 .jumbotron {
-    background-color: #22A39F;
+    background-color: #0098B7;
     color: white;
     height: 722px;
     display: flex;
     margin: 0px;
-
 }
 
 .jumbotron-fluid h1 {
@@ -33,9 +34,10 @@ body {
 }
 
 .intro {
+    background-color: #DFDEDC;
     display: flex;
     flex-direction: row;
-    align-items: center;    
+    align-items: center;
 }
 
 .intro-texto {
@@ -44,43 +46,138 @@ body {
     align-items: center;
 }
 
-img {
+.intro-texto p {
+    font-size: 20px;
+}
+
+.intro-texto h4 {
+    font-weight: bold;
+}
+
+.intro img {
     width: 50%;
 }
 
+.gaming {
+    background-color: #DFDEDC;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gaming-header {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gaming-header h3 {
+    font-weight: bold;
+}
+
+.gaming-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.card-text {
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 18px;
+}
+
+.btn-primary {
+    width: 150px;
+}
+
 #Aloy {
-    color: rgb(221, 103, 48);
+    background-color: rgb(221, 103, 48);
 }
 
 #Aloy:hover {
-    color: rgb(79, 79, 180);
+    background-color: rgb(79, 79, 180);
 }
 
 #Ellie {
-    color: #d4eb9e;
+    background-color: #dd857b;
 }
 
 #Ellie:hover {
-    color: #dd857b;
+    background-color: #d4eb9e;
 }
 
-#Kratos {
-    color: #922929;
+#Boy {
+    background-color: #922929;
 }
 
-#Kratos:hover {
-    color: darkgray;
+#Boy:hover {
+    background-color: darkgray;
 }
 
-/* ol {
-    padding-left: 20px;
+.kpop {
+    height: 1000px;
     display: flex;
-    flex-direction: row;
-} */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.kpop-header h3 {
+    color: #922929;
+    font-weight: bold;
+}
+
+.contact {
+    background-color: #DFDEDC;
+}
 
 .subs {
     color: plum;
     font-weight: bold;
     font-variant: small-caps;
     font-size: 20px;
+}
+
+.final {
+    background-color: #0098B7;
+    height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.final-header {
+    font-size: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.online {
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.online i {
+    margin: 10px;
+}
+
+.online a {
+    color: white;
 }

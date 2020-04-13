@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8" />
     <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3302e8cbe8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
 
     <title>Iliana Wong</title>
@@ -42,78 +44,142 @@
     <main>
         <div class="intro">
             <div class="intro-texto container">
-                <p>Soy de la ciudad del Sol:</p>
+                <p>I am from "La Ciudad del Sol":</p>
                 <h4>HERMOSILLO, SONORA</h4>
             </div>
-            <img class="vista" src="https://cdn.tiempodev.com/wp-content/uploads/2019/05/23163030/mexico-sky.jpg"
-                alt="vista Cerro de la Campana">
+            <img class="vista" src="vista_hermosillo.jpg" alt="vista Cerro de la Campana">
 
         </div>
 
     </main>
 
-<section class="background">
+    <section class="background">
+        <div>
 
-</section>
+        </div>
+    </section>
 
     <section class="gaming">
-        <h3>Algunos de mis juegos favoritos son:</h3>
-        <ul>
-            <li><a id="Aloy" href="https://www.playstation.com/en-us/games/horizon-zero-dawn-ps4/">HZD</a></li>
-            <li><a id="Ellie" href="https://www.playstation.com/es-mx/games/the-last-of-us-remastered-ps4/">TLoU</a>
-            </li>
-            <li><a id="Kratos" href="https://www.playstation.com/es-mx/games/god-of-war-ps4/">GoW</a></li>
-        </ul>
+        <div class="gaming-header container">
+            <h3>Some of my favorite games:</h3>
+        </div>
+        <div class="gaming-cards">
+            <div class="card hzd shadow bg-white rounded" style="width: 18rem;">
+                <img src="HZD.jpg" class="card-img-top" alt="Horizon Zero Dawn">
+                <div class="card-body">
+                    <h5 class="card-title">Horizon Zero Dawn</h5>
+                    <p class="card-text">"Earth is ours no more"</p>
+                    <a href="https://www.playstation.com/en-us/games/horizon-zero-dawn-ps4/" id="Aloy"
+                        class="btn btn-primary">Try it!</a>
+                </div>
+            </div>
 
-        <span>Cual te gusto mas?</span>
-        <input type="text">
+            <div class="card tlou shadow bg-white rounded" style="width: 18rem;">
+                <img src="TLoU.jfif" class="card-img-top" alt="The Last of Us">
+                <div class="card-body">
+                    <h5 class="card-title">The Last of Us</h5>
+                    <p class="card-text">"Life goes on"</p>
+                    <a href="https://www.playstation.com/es-mx/games/the-last-of-us-remastered-ps4/" id="Ellie"
+                        class="btn btn-primary">Try it!</a>
+                </div>
+            </div>
+
+            <div class="card gow shadow bg-white rounded" style="width: 18rem;">
+                <img src="gow1.jfif" class="card-img-top" alt="God of War">
+                <div class="card-body">
+                    <h5 class="card-title">God of War</h5>
+                    <p class="card-text">"A new beginning"</p>
+                    <a href="https://www.playstation.com/es-mx/games/god-of-war-ps4/" id="Boy"
+                        class="btn btn-primary">Try it!</a>
+                </div>
+            </div>
+        </div>
 
     </section>
 
     <section class="kpop">
-        <h3>Algunos artistas Kpop que super recomiendo:</h3>
-        <ol>
-            <li>MAMAMOO</li>
-            <a href="https://www.youtube.com/watch?v=KhTeiaCezwM"><img
-                    src="https://www.kexevere.com/wp-content/uploads/2019/11/upload_720X535_VEC95B1EC8DB8EB84A4EC9DBC.jpg"
-                    alt="mamamoo"></a>
-            <li>Super Junior</li>
-            <a href="https://www.youtube.com/watch?v=aNcgx832uMM"><img
-                    src="https://elcomercio.pe/resizer/23ZOQ2ADrGB-JUDi-GqnjuNJzt8=/980x528/smart/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/YYEHRZYWKFBPVGL6R4R7BCFELA.jpg"
-                    alt="Super Junior"></a>
-            <li>AKMU</li>
-            <a href="https://www.youtube.com/watch?v=sbc2yBheAbo"><img
-                    src="https://webmediums.com/media/max_1200/1*tkWym4XA9GFC_D0dYBAhDQ.jpeg" alt="Akdong Musician"></a>
-        </ol>
+        <div class="kpop-header container">
+            <h3>Some Kpop artists I highly recommend:</h3>
+        </div>
 
-        <span>Te reiste con Super Junior?</span>
+        <div class="kpop-slides container">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="https://www.youtube.com/watch?v=KhTeiaCezwM"><img src="Mamamoo.jpg"
+                                class="d-block w-100" alt="MAMAMOO"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.youtube.com/watch?v=aNcgx832uMM"><img src="Super_Junior.jpg"
+                                class="d-block w-100" alt="Super Junior"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.youtube.com/watch?v=sbc2yBheAbo"><img src="AKMU.jpeg" class="d-block w-100"
+                                class="d-block w-100" alt="Akdong Musician"></a>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- <span>Te reiste con Super Junior?</span>
         <select>
             <option>Uno parecia Paquita la del Barrio</option>
             <option>Quienes?</option>
-        </select>
+        </select> -->
 
     </section>
 
-    <p class="subs">Visitas</p>
-    <form>
-        <span>Nombre</span>
-        <input type="text">
-        <span>Lei todo</span>
-        <input type="checkbox">
-        <span>Que piensas?</span>
-        <select>
-            <option>Woo!</option>
-            <option>Meh</option>
-            <option>Bleh</option>
-        </select>
-    </form>
+    <section class="contact">
+        <p class="subs">Visitas</p>
+        <form>
+            <span>Nombre</span>
+            <input type="text">
+            <span>Lei todo</span>
+            <input type="checkbox">
+            <span>Que piensas?</span>
+            <select>
+                <option>Woo!</option>
+                <option>Meh</option>
+                <option>Bleh</option>
+            </select>
+        </form>
 
-    <p class="subs">Comentarios</p>
-    <textarea name="" id="" cols="30" rows="10"></textarea>
+        <p class="subs">Comentarios</p>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </section>
 
-    <footer>
-        <p>Espero se hayan entretenido!</p>
+    <footer class="final">
+        <div class="final-header">
+            <p>Espero se hayan entretenido!</p>
+        </div>
+        <div class="online">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-github"></i></a>
+            <a href=""><i class="far fa-envelope"></i></a>
+        </div>
+
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
 
 </body>
 

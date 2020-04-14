@@ -3,11 +3,11 @@ body {
 }
 
 .navbar {
-    background-color: rgb(0, 0, 0, 0.6);
+    background-color: #113448;
     position: fixed;
     width: 100%;
     z-index: 3;
-    height: 70px;
+    height: 60px;
     top: 0;
 }
 
@@ -17,7 +17,10 @@ body {
 } */
 
 .inicio {
-    margin-top: 90px;
+    /* margin-top: 90px; */
+    background: url(landscape.jpeg);
+    height: 900px;
+
 }
 
 .landscape {
@@ -28,14 +31,36 @@ body {
 }
 
 .main-container {
-    text-align: justify;
+    background-color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro-main {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #FFFFFF;
+    border-bottom-color: lightgray;
+}
+
+.intro-subs {
+    padding-top: 50px;
+}
+
+.about {
+    
 }
 
 .entrada {
     text-align: center;
 }
 
-.tarjetas {
+.about-tarjetas {
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
@@ -43,11 +68,61 @@ body {
     justify-content: space-evenly;
 }
 
+/* .quizzes {
+    
+} */
+
+.quizzes-header {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quizzes-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.arbol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arbol img {
+    width: 10%;
+}
+
 footer {
-    background-color: dimgray;
+    background-color: #805A46;
+    height: 70px;
+    color: white;
 }
 
-footer p {
-    font-size: small;
+.final {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
+.terms-policy a {
+    color: white;
+}
+
+.terms {
+    padding-right: 10px;
+    border-right: 1px solid #FFFFFF;
+    border-bottom-color: white;
+}
+
+.policy {
+    padding-left: 5px;
+}
+
+.terms-policy a:hover {
+    text-decoration: currentColor;
+    color: #97C14B;
+}
